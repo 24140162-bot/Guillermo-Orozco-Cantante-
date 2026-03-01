@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto - Guillermo Orozco</title>
+
+<link rel="icon" type="image/png" href="logogogo.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+    background-color:#141414;
+    font-family:'Segoe UI', sans-serif;
+    color:white;
+}
+
+/* NAVBAR */
+.navbar{
+    background: linear-gradient(90deg,#e10600,#000000) !important;
+}
+
+.navbar-brand{
+    font-weight:bold;
+    color:#ffcc00 !important;
+    display:flex;
+    align-items:center;
+}
+
+.navbar-brand img{
+    height:55px;
+    margin-right:12px;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.nav-link:hover{
+    color:#ffcc00 !important;
+}
+
+/* CONTACTO */
+.contact-section{
+    margin-top:120px;
+    padding:60px 10%;
+    text-align:center;
+}
+
+.contact-section h2{
+    color:#ffcc00;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+/* NÚMEROS */
+.phone-box{
+    background:#1f1f1f;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:25px;
+    box-shadow:0 0 20px rgba(255,0,0,0.4);
+}
+
+.phone-box h4{
+    margin-bottom:15px;
+}
+
+.whatsapp-btn{
+    display:inline-block;
+    margin-top:10px;
+    background:#25D366;
+    padding:10px 25px;
+    border-radius:8px;
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* FORM */
+.form-control{
+    background:#1f1f1f;
+    border:none;
+    color:white;
+}
+
+.form-control:focus{
+    background:#1f1f1f;
+    color:white;
+    box-shadow:0 0 10px rgba(255,0,0,0.5);
+}
+
+.btn-contact{
+    background:#ff0000;
+    border:none;
+    padding:12px 40px;
+    border-radius:8px;
+    font-weight:bold;
+    color:white;
+}
+
+/* QR */
+.qr-box img{
+    width:220px;
+    margin-top:20px;
+}
+
+/* FOOTER */
+footer{
+    background:#000;
+    padding:40px;
+    text-align:center;
+    margin-top:80px;
+    color:#ffcc00;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">
+<img src="logogogo.png" alt="Logo">
+Guillermo Orozco
+</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="file:///C:/Users/santa/OneDrive/Escritorio/guillermo%20orozco/index.html#">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="file:///C:/Users/santa/OneDrive/Escritorio/guillermo%20orozco/index3.html">Música</a></li>
+<li class="nav-item"><a class="nav-link" href="file:///C:/Users/santa/OneDrive/Escritorio/guillermo%20orozco/index2.html#">Eventos</a></li>
+<li class="nav-item"><a class="nav-link" href="file:///C:/Users/santa/OneDrive/Escritorio/guillermo%20orozco/index4.html?#">Contacto</a></li>
+
+</ul>
+</div>
+</div>
+</nav>
+
+<section class="contact-section">
+
+<h2>Contrataciones</h2>
+
+<!-- NÚMERO 1 -->
+<div class="phone-box">
+<h4> 55 16 48 10 22</h4>
+<a href="https://wa.me/525516481022" target="_blank" class="whatsapp-btn">
+Enviar WhatsApp
+</a>
+</div>
+
+<!-- NÚMERO 2 -->
+<div class="phone-box">
+<h4>55 52 20 35 40</h4>
+<a href="https://wa.me/525552203540" target="_blank" class="whatsapp-btn">
+Enviar WhatsApp
+</a>
+</div>
+
+<!-- QR -->
+<div class="qr-box">
+<h4>Escanea para WhatsApp</h4>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://wa.me/525516481022" alt="QR WhatsApp">
+</div>
+
+<hr style="margin:60px 0; border-color:#333;">
+
+<h2>Envíanos un Mensaje</h2>
+
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-6">
+
+<form>
+<div class="mb-3">
+<input type="text" class="form-control" placeholder="Nombre">
+</div>
+
+<div class="mb-3">
+<input type="email" class="form-control" placeholder="Correo electrónico">
+</div>
+
+<div class="mb-3">
+<textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
+</div>
+
+<button type="submit" class="btn-contact">Enviar</button>
+
+</form>
+
+</div>
+</div>
+</div>
+
+</section>
+
+<footer>
+© 2026 Guillermo Orozco | Contrataciones Oficiales
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
